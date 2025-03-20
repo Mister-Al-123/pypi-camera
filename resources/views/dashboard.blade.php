@@ -8,8 +8,24 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
+                <div class="flex p-6 text-gray-900">
+                    <div class="ml-2">
+                        <iframe src="https://placehold.co/640x480?text=Video+Placeholder" width="640" height="480"></iframe>
+                    </div>
+                    <div class="ml-2">
+                            <div class="pb-2">
+                                <p>Test</p>
+                            </div>
+                            <div class="pb-2">
+                                <p>Test</p>
+                            </div>
+                            <div class="pb-2">
+                                <p>Test</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="ml-2 text-grey-900">
+                    <p>Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</p>
                 </div>
             </div>
         </div>
