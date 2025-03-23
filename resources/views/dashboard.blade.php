@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="flex p-6 text-gray-900">
                     <div class="ml-2">
-                        <iframe src="https://placehold.co/640x480?text=Video+Placeholder" width="640" height="480"></iframe>
+                        <iframe src="/live/?controls=false" width="640" height="480"></iframe>
                     </div>
                     <div class="ml-2">
                             <div class="pb-2">
