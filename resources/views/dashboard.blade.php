@@ -10,17 +10,25 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="flex p-6 text-gray-900">
                     <div class="ml-2">
-                        <iframe src="/live/?controls=false" width="640" height="480"></iframe>
-                    </div>
+                    <iframe src="/live/?controls=false" width="640" height="480"></iframe></div>
                     <div class="ml-2">
                             <div class="pb-2">
-                                <p>Test</p>
                             </div>
                             <div class="pb-2">
-                                <p>Test</p>
+                                <p><?php
+                                $dir = "/camera";
+                                $files = scandir($dir);
+                                foreach ($files as $file) {
+                                        echo '
+                                        <video controls>
+                                            <source src="'.$dir.'/'.$file.'" type="video/mp4">
+                                        </video>';
+                                }
+                                    
+                                    ?></p>
                             </div>
                             <div class="pb-2">
-                                <p>Test</p>
+                                <p>Test text</p>
                             </div>
                     </div>
                 </div>
@@ -31,3 +39,4 @@
         </div>
     </div>
 </x-app-layout>
+
