@@ -17,7 +17,7 @@
                             <div class="pb-2">
                                 <p><?php
                                 $dir = "/camera";
-                                $files = scandir($dir);
+                                $files = array_diff(scandir($dir), array('.', '..'));
                                 foreach ($files as $file) {
                                         echo '
                                         <video controls>
