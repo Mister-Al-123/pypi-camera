@@ -23,11 +23,11 @@ A project for a standalone security camera using Python on a Raspberry Pi
 
 ## Usage
 ### Full Install
-Access web application and camera by https://<IP-ADDRESS> <br>
-Access WebRTC feed by https://<IP-ADDRESS>/live <br>
-Access RTSP feed by rtsp://<IP-ADDRESS>:8554/live
+Access web application and camera by https://\<IP-ADDRESS\> <br>
+Access WebRTC feed by https://\<IP-ADDRESS\>/live <br>
+Access RTSP feed by rtsp://\<IP-ADDRESS\>:8554/live
 ### Minimal Install
-Access RTSP feed by rtsp://<IP-ADDRESS>:8554/live
+Access RTSP feed by rtsp://\<IP-ADDRESS\>:8554/live
 
 ## Requirements
 ### Must
