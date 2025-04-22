@@ -3,7 +3,17 @@
 A project for a standalone security camera using Python on a Raspberry Pi
 
 ## Hardware and Equipment
-Coming soon
+### Full Install
+- Raspberry Pi 5 or equivalent (CPU with similar power to BCM2712 like Intel N100)
+- Camera attachment (Camera Module if using a Raspberry Pi/ USB Web Camera if using other computer)
+- 128GB Storage or more (Must be mounted on / or /camera)
+- Debian or Raspberry Pi OS (Or Forks)
+
+### Minimal Install
+- Raspberry Pi Zero 2W or equivalent (Any CPU capable of good H.264 encoding)
+- Camera attachment (Camera Module if using a Raspberry Pi/ USB Web Camera if using other computer)
+- Any amount of storage
+- Debian or Raspberry Pi OS (Or Forks)
 
 ## Installation
 ### Full install (Includes object detection and web application)
