@@ -1,0 +1,12 @@
+logLevel: info
+logDestinations: [stdout]
+
+srt: no
+hls: no
+rtmp: no
+webrtc: yes
+
+paths:
+  live:
+    source: publisher
+  all_others:

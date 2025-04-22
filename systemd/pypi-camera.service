@@ -1,0 +1,9 @@
+[Unit]
+Description=Pypi-Camera Backend script
+After=network.target
+
+[Service]
+ExecStart=/opt/pypi-camera/bin/python /opt/pypi-camera/main.py
+
+[Install]
+WantedBy=multi-user.target
