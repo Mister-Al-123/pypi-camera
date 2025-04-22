@@ -21,6 +21,14 @@ A project for a standalone security camera using Python on a Raspberry Pi
 ### Minimal install (Only camera feed)
 `curl -fs -L https://raw.githubusercontent.com/Mister-Al-123/pypi-camera/refs/heads/basic/install/min-install.sh | sudo bash`
 
+## Usage
+### Full Install
+Access web application and camera by https://<IP-ADDRESS> <br>
+Access WebRTC feed by https://<IP-ADDRESS>/live <br>
+Access RTSP feed by rtsp://<IP-ADDRESS>:8554/live
+### Minimal Install
+Access RTSP feed by rtsp://<IP-ADDRESS>:8554/live
+
 ## Requirements
 ### Must
 - [x] Live video feed 
