@@ -7,10 +7,9 @@ Coming soon
 
 ## Installation
 ### Full install (Includes object detection and web application)
-`curl -fs -L https://git.cool-home.duckdns.org/alzy/pypi-camera/raw/branch/main/install/max-install.sh | sudo bash`
+`curl -fs -L https://raw.githubusercontent.com/Mister-Al-123/pypi-camera/refs/heads/basic/install/max-install.sh | sudo bash`
 ### Minimal install (Only camera feed)
-## NOTE: Does not work yet
-`curl -fs -L https://git.cool-home.duckdns.org/alzy/pypi-camera/raw/branch/main/install/lite-install.sh | sudo bash`
+`curl -fs -L https://raw.githubusercontent.com/Mister-Al-123/pypi-camera/refs/heads/basic/install/min-install.sh | sudo bash`
 
 ## Requirements
 ### Must
