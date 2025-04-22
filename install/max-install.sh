@@ -31,8 +31,8 @@ fi
 apt install -y v4l-utils ffmpeg apache2 apache2-utils mariadb-server php8.2 php8.2-curl php8.2-cli php8.2-xml php8.2-mysql libxml2-dev composer npm git ufw
 
 # Program pull then split frontend into necessary folder
-git clone https://git.cool-home.duckdns.org/alzy/pypi-camera.git /opt/pypi-camera
-git clone https://git.cool-home.duckdns.org/alzy/pypi-web.git /var/www/html/pypi-web
+git clone https://github.com/Mister-Al-123/pypi-camera.git /opt/pypi-camera
+git clone https://github.com/Mister-Al-123/pypi-web.git /var/www/html/pypi-web
 
 ## Backend
 
