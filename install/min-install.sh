@@ -31,7 +31,7 @@ fi
 apt install -y v4l-utils ffmpeg git ufw
 
 # Program pull then split frontend into necessary folder
-git clone https://git.cool-home.duckdns.org/alzy/pypi-camera.git /opt/pypi-camera
+git clone https://github.com/Mister-Al-123/pypi-camera.git /opt/pypi-camera
 
 ## Backend
 
