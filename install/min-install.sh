@@ -82,7 +82,7 @@ ufw allow 8554 comment RTSP
 
 ufw default deny incoming
 ufw default allow outgoing
-ufw enable
+ufw --force enable
 
 ## Finalization
 
