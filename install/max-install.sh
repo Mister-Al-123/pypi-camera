@@ -124,6 +124,7 @@ ufw default allow outgoing
 ufw --force enable
 
 # HTTPS set up
+mkdir /etc/apache2/ssl
 openssl req -x509 -nodes -days 3652 -newkey rsa:4096 -keyout /etc/apache2/ssl/local.key -out /etc/apache2/ssl/local.crt -subj "/C=GB/ST=West Yorkshire/L=Leeds/O=Pypi/OU=Pypi-Camera/CN=localhost"
 
 ## Finalization
