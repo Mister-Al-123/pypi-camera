@@ -20,8 +20,8 @@ import subprocess
 # Program Entry Point
 if(__name__ == '__main__'):
     # Camera details
-    fps = 15
-    res = [640,480]
+    fps = 20
+    res = [1280,720]
     encode = "libx264"
     
     # Camera Module configure and start
